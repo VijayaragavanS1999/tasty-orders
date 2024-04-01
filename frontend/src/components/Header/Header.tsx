@@ -6,7 +6,7 @@ import logo from "../../assets/logo.png";
 
 const Header = () => {
   return (
-    <div className="px-10 flex items-center justify-between bg-gradient-to-r from-amber-200 to-orange-400 h-16 w-full">
+    <div className="z-50 px-10 flex items-center justify-between bg-gradient-to-r from-amber-200 to-orange-400 h-16 w-full fixed shadow">
        <Link to="/" className="flex items-center">
         <img src={logo} alt="Logo" className="h-14 w-auto" />
         <h1 className="text-2xl font-black">Tasty-Order</h1>
@@ -17,8 +17,8 @@ const Header = () => {
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
 
-        <Button variant="outline">Login</Button>
-        <div className="md:hidden">
+        <Button variant="outline" className="hidden sm:block">Login</Button>
+        <div className="md:hidden mt-2.5">
           <MobileNav />
         </div>
       </div>

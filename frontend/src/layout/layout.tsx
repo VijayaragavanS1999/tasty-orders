@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import HomePage from "@/components/HomePage/HomePage"
 
@@ -10,6 +11,7 @@ const Layout = ({childer}:Props) =>{
         <div className="flex min-h-screen flex-col">
             <Header />
             <HomePage />
+            <Footer />
         </div>
     )
 }
