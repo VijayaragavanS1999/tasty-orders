@@ -1,8 +1,4 @@
 import { Link } from "react-router-dom";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
-import MobileNav from "../MobileNav/MobileNav";
-import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
